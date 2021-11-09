@@ -1,0 +1,50 @@
+header{
+	background-image: url(musicians.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	padding: 10px;
+	padding-top: 250px;
+	text-align: center;
+}
+
+nav{
+	background: #FFA300;
+	margin: 0;
+	position: sticky;
+	top: 0;
+}
+
+li{
+	list-style-type: none;
+	display: inline-block;
+	background: #FFD100;
+	color: white;
+	padding: 10px;
+	transition: 0.7s;
+}
+
+li:hover{
+
+	background: #FF4D00;
+}
+
+li:active{
+	background: #FFA100;
+}
+	
+footer{
+	background: #064789;
+	
+	padding: 40px;
+	padding-top: 90px;
+}
+
+footer a{
+	text-decoration: none;
+	display: inline-block;
+	background: white;
+	color: #064789;
+	padding: 10px;
+	transition: 0.7s;
+	border-radius: 12px;
+}
